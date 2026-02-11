@@ -8,8 +8,8 @@ on:
     paths-ignore:
       - '**/*.md'
       - 'mkdocs.yml'
-  schedule:
-    - cron: '0 */12 * * *'
+  #schedule:
+  #  - cron: '0 */12 * * *'
   workflow_dispatch:
 
 permissions:
